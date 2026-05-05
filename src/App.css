@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: blanchedalmond;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* New Project Form */
+.new-project {
+  background-color: cadetblue;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.new-project h2 {
+  margin-bottom: 10px;
+  color: whitesmoke;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.new-project h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.new-project input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+.new-project button {
+  margin-top: 15px;
+  padding: 8px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.new-project button:hover {
+  background-color: #45a049;
+}
+
+
+/* Filter */
+.filter-project {
+  margin-bottom: 30px;
+}
+
+.filter-project input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Project Card */
+.project-card {
+  background-color: yellowgreen;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+.project-card h1 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.project-card p {
+  color: #666;
+  font-size: 14px;
+}
