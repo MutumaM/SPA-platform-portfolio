@@ -1,4 +1,5 @@
 import React from 'react';
+import "./App.css";
 import NewProject from "./components/NewProject";
 import FilterProject from "./components/FilterProject";
 import ProjectList from "./components/ProjectList";
