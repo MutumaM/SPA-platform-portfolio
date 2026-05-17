@@ -6,98 +6,116 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: blanchedalmond;
+  background-color: #f0f4ff;
   padding: 20px;
+  min-height: 100vh;
+  color: #333;
 }
 
 h1 {
   text-align: center;
-  color: #333;
-  margin-bottom: 20px;
+  color: #1d4ed8;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
 }
 
 /* New Project Form */
 .new-project {
-  background-color: cadetblue;
+  background-color: white;
   padding: 20px;
-  margin-bottom: 30px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+  border-radius: 8px;
+  border-left: 4px solid #1d4ed8;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
 
 .new-project h2 {
-  margin-bottom: 10px;
-  color: whitesmoke;
-  font-size: xx-large;
+  margin-bottom: 12px;
+  color: #1d4ed8;
+  font-size: 1.3rem;
   text-align: center;
 }
 
 .new-project h3 {
   margin-top: 10px;
   margin-bottom: 5px;
-  color: black;
+  color: #555;
+  font-size: 0.9rem;
 }
 
 .new-project input {
   width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 9px 12px;
+  border: 1px solid #bfdbfe;
+  border-radius: 6px;
   font-size: 14px;
   outline: none;
+  background-color: #f8faff;
+  color: #333;
+}
+
+.new-project input:focus {
+  border-color: #1d4ed8;
 }
 
 .new-project button {
   margin-top: 15px;
-  padding: 8px 20px;
-  background-color: green;
+  padding: 9px 22px;
+  background-color: #1d4ed8;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
   font-size: 14px;
 }
 
 .new-project button:hover {
-  background-color: #45a049;
+  background-color: #1e40af;
 }
-
 
 /* Filter */
 .filter-project {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .filter-project input {
   width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 10px 14px;
+  border: 1px solid #bfdbfe;
+  border-radius: 6px;
   font-size: 14px;
   outline: none;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.filter-project input:focus {
+  border-color: #1d4ed8;
 }
 
 /* Project Card */
 .project-card {
-  background-color: yellowgreen;
-  padding: 15px;
-  margin-bottom: 15px;
-  border: 1px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-  
+  background-color: white;
+  padding: 16px 18px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border-left: 4px solid #3b82f6;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.project-card:hover {
+  border-left-color: #1d4ed8;
 }
 
 .project-card h1 {
-  font-size: 18px;
-  color: white;
-  margin-bottom: 8px;
-  text-align: left;
+  font-size: 17px;
+  color: #1d4ed8;
+  margin-bottom: 7px;
 }
 
 .project-card p {
   color: #666;
   font-size: 14px;
+  line-height: 1.5;
 }

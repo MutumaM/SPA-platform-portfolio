@@ -1,17 +1,19 @@
 import React from 'react';
-function FilterProject() {
-    const [searchText, setSearchText]= React.useState('')
-  
+
+function FilterProject({ setSearchText }) {
+
   const saveSearchedProject = (event) => {
     setSearchText(event.target.value)
   }
 
-    return(
-        <div className='filter-project'>
-            <input placeholder="Search projects" onChange = {saveSearchedProject} />
-            <button>Search</button>
-        </div>
-    )
+  return(
+    <div className='filter-project'>
+      <input 
+        placeholder="Search projects..." 
+        onChange={saveSearchedProject} 
+      />
+    </div>
+  )
 }
 
 export default FilterProject;
